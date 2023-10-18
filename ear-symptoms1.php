@@ -96,7 +96,7 @@ foreach($results as $result)
 
      <div class="flex-p-inside">
      <div class="flex-p-1">
-     <li><a href="teerms.php" ><button><<</button></li>
+     <li><a href="teerms.php" ><button>Back</button></li>
 </div>
 </div>
 

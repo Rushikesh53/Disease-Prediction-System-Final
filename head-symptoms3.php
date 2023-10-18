@@ -160,7 +160,7 @@ foreach($results as $result)
 
      <div class="flex-p-inside">
      <div class="flex-p-1">
-     <li><a href="head-symptoms2.php" ><button><<</button></li>
+     <li><a href="head-symptoms2.php" ><button>Back</button></li>
 </div>
 </div>
 

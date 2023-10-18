@@ -29,6 +29,7 @@ button{
     ?> 
         <section class="container content">
             <div class="hompage">
+            <div class="home-content">
             <h1>Disease Prediction System</h1>
             <h2>Your Good Health Is Your Greatest Wealth</h2>
             <br><br>
@@ -40,6 +41,7 @@ button{
             <li><button class="homepage-button" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"><a>Login as Admin</a></button></li>
            &nbsp&nbsp&nbsp&nbsp&nbsp<li> <button class="homepage-button"><a href="intro.php"> Start Checkup </a></button></li>           
             </ul>
+            </div>
       </div>
         </section>
 

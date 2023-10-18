@@ -74,29 +74,29 @@ align-items: center;
  
 .intro-page button{
    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#499bea+33,207ce5+67 */
-background: #499bea; /* Old browsers */
-background: -moz-linear-gradient(top,  #499bea 33%, #207ce5 67%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #499bea 33%,#207ce5 67%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #499bea 33%,#207ce5 67%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
+background: #333; /* Old browsers */
+/* background: -moz-linear-gradient(top,  #499bea 33%, #207ce5 67%); 
+background: -webkit-linear-gradient(top,  #499bea 33%,#207ce5 67%);
+background: linear-gradient(to bottom,  #499bea 33%,#207ce5 67%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 );  */
 
    
     float: right;
-    border-radius: 25px;
+    /* border-radius: 25px; */
     transition:0.5s;
    color:white;
 
 }  
 .intro-page button:hover{
    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#29b8e5+50,bce0ee+90 */
-background: #29b8e5; /* Old browsers */
-background: -moz-linear-gradient(top,  #29b8e5 50%, #bce0ee 90%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #29b8e5 50%,#bce0ee 90%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #29b8e5 50%,#bce0ee 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29b8e5', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+background: #000; /* Old browsers */
+/* background: -moz-linear-gradient(top,  #29b8e5 50%, #bce0ee 90%); 
+background: -webkit-linear-gradient(top,  #29b8e5 50%,#bce0ee 90%);
+background: linear-gradient(to bottom,  #29b8e5 50%,#bce0ee 90%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29b8e5', endColorstr='#bce0ee',GradientType=0 );  */
 
    color:white;
-    border-radius: 25px;
+    /* border-radius: 25px; */
 
 
 } 
@@ -132,6 +132,7 @@ li{
 </style>
     </head>
     <body >
+        
       
     <?php
       include "user_login.php";
@@ -150,12 +151,19 @@ li{
 
 <div class="content-p">
    
- <ul> <li><h2>HELLOW !!!</h2></li>
-     <li><p>You’re about to use a short , safe and anonymous health checkup.
-              Your answers will be carefully analyzed and you’ll learn about 
-              possible causes of your symptoms.&nbsp&nbsp</p></li>
+                <ul>
+                    <li>
+                        <h2>Empower Your Future with Our Disease Prediction System!</h2>
+                    </li>
+                    <li>
+                        <p>Harness knowledge as your ally in well-being. Our platform isn't just tech; it's your
+                            health's proactive partner. Envision foreseeing health hurdles and seizing control of your
+                            destiny. With top tech and a dedicated team, embark on this journey. Embrace info's power,
+                            choose wisely, and unlock a brighter, healthier you. Your path to a better future starts
+                            now.&nbsp&nbsp</p>
+                    </li>
 
-</ul>
+                </ul>
 
 </div>  
 
@@ -172,7 +180,7 @@ li{
 </div>
 
 <div class="flex-p-2">
-<li><a href="policy.php" ><button id="next-btn">Guest</button></li>
+<li><a href="policy.php" ><button id="next-btn">Login as Guest</button></li>
 <li><a><button id="register-btn" onclick="document.getElementById('0303').style.display='block'" style="width:auto;">Register</button></a></li>
 <li><a><button id="login-btn" onclick="document.getElementById('1111111111').style.display='block'" style="width:auto;" >Login</button></a></li>
  <!-- class="homepage-button" -->

@@ -55,29 +55,29 @@ color: #131001;
 
 .intro-page button{
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#499bea+33,207ce5+67 */
-background: #499bea; /* Old browsers */
-background: -moz-linear-gradient(top,  #499bea 33%, #207ce5 67%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #499bea 33%,#207ce5 67%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #499bea 33%,#207ce5 67%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
+background: #333; 
+/* background: -moz-linear-gradient(top,  #499bea 33%, #207ce5 67%); 
+background: -webkit-linear-gradient(top,  #499bea 33%,#207ce5 67%); 
+background: linear-gradient(to bottom,  #499bea 33%,#207ce5 67%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 );  */
 
 
 float: right;
-border-radius: 25px;
+/* border-radius: 25px; */
 transition:0.5s;
 color:white;
 
 }  
 .intro-page button:hover{
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#29b8e5+50,bce0ee+90 */
-background: #29b8e5; /* Old browsers */
-background: -moz-linear-gradient(top,  #29b8e5 50%, #bce0ee 90%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top,  #29b8e5 50%,#bce0ee 90%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom,  #29b8e5 50%,#bce0ee 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29b8e5', endColorstr='#bce0ee',GradientType=0 ); /* IE6-9 */
+background: #000; /* Old browsers */
+/* background: -moz-linear-gradient(top,  #29b8e5 50%, #bce0ee 90%); 
+background: -webkit-linear-gradient(top,  #29b8e5 50%,#bce0ee 90%);
+background: linear-gradient(to bottom,  #29b8e5 50%,#bce0ee 90%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29b8e5', endColorstr='#bce0ee',GradientType=0 );  */
 
 color:white;
-border-radius: 25px;
+/* border-radius: 25px; */
 
 
 }
@@ -138,11 +138,11 @@ cursor:pointer;
 
 
 .result-color2{
-   background: #499bea;
-   background: -moz-linear-gradient(top, #91a3ff 33%, #91a3ff 50%);
+   background: #555;
+   /* background: -moz-linear-gradient(top, #91a3ff 33%, #91a3ff 50%);
    background: -webkit-linear-gradient(top, #91a3ff 33%,#91a3ff 50%);
    background: linear-gradient(to bottom, #91a3ff 33%,#91a3ff 50%);
-   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 );
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); */
    border-radius: 10px;
    transition: 2s;
    color: white;
@@ -153,19 +153,26 @@ padding: 15px;
 
 font-size:16px;
 cursor:pointer;
+}
+
+
+
+#action-btn{
+   color: #000;
 }
 
 
 
 .result-color1{
-   background: #499bea;
-   background: -moz-linear-gradient(top, #91a3ff 33%, #91a3ff 50%);
+   background: #ffffff;
+   border: 2px solid black;
+   /* background: -moz-linear-gradient(top, #91a3ff 33%, #91a3ff 50%);
    background: -webkit-linear-gradient(top, #91a3ff 33%,#91a3ff 50%);
-   background: linear-gradient(to bottom, #91a3ff 33%,#91a3ff 50%);
+   background: linear-gradient(to bottom, #91a3ff 33%,#91a3ff 50%); */
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 );
    border-radius: 10px;
    transition: 2s;
-   color: white;
+   color: rgb(0, 0, 0);
 border-radius:10px;
 font-weight:900;
 margin-bottom: 10px;
@@ -174,15 +181,15 @@ padding: 15px;
 font-size:16px;
 cursor:pointer;
 }
-.result-color1:hover{
+/* .result-color1:hover{
    background: #29b8e5;
    background: -moz-linear-gradient(top, #29b8e5 50%, #bce0ee 90%);
    background: -webkit-linear-gradient(top, #29b8e5 50%,#bce0ee 90%);
    background: linear-gradient(to bottom, #29b8e5 50%,#bce0ee 90%);
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#29b8e5', endColorstr='#bce0ee',GradientType=0 );
-   color: white;
+   color: rgb(0, 0, 0);
    border-radius: 10px;
-}
+} */
 .result-color1 i
 {
  color:white;

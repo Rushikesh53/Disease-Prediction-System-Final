@@ -28,6 +28,7 @@
     opacity: 32.7;
     -webkit-transition: .2s;
     transition: opacity 11.2s;
+    
 }
 
 .slider:hover {
@@ -42,6 +43,7 @@
   border: 0;
   background: url('contrasticon.png');
   cursor: pointer;
+  
 }
 
 .slider::-moz-range-thumb {
@@ -50,6 +52,7 @@
   border: 0;
   background: url('contrasticon.png');
   cursor: pointer;
+  
 }
 tr,td{
     text-align:center;
@@ -85,7 +88,7 @@ h2{
        <table id="example"  cellspacing="2" width="100%">
                                       
   
-                                                    <tbody>
+      <tbody>
 
 
 <tr>
@@ -106,7 +109,7 @@ h2{
                                                 <div class="flex-p-inside">
 
 <div class="flex-p-2">
-<li><button type="submit" name="submit" >NEXT</button></li> 
+<li><button type="submit" name="submit">NEXT</button></li> 
 
 </div>
 </div>

@@ -3,11 +3,11 @@
 <link rel="stylesheet" href="css/all.min.css" media="screen" >
 </head>
 
-  <nav class="navbar top-navbar bg-white box-shadow">
+  <nav class="navbar top-navbar bg-white box-shadow" style="background-color:#333">
             	<div class="container-fluid">
                     <div class="row">
                         <div class="navbar-header no-padding">
-                			<a class="navbar-brand" href="admin_edit_choice.php">
+                			<a class="navbar-brand" href="admin_edit_choice.php" style="color:#999; padding-top:20px" >
                 			    Admin Dashboard 
                 			</a>
                             <span class="small-nav-handle hidden-sm hidden-xs"></span>

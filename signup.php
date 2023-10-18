@@ -86,7 +86,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', end
     <input type="email" name="email" class="form-control" id="inputEmail3" placeholder="Email" required>
 
     <label>
-    <button type="submit" name="submit" class="button-login">Sign up<span class="btn-label btn-label-right"></button>
+    <button type="submit" name="submit" class="button-login" style="background: #333">Sign up<span class="btn-label btn-label-right"></button>
     </label>
   </div>
 

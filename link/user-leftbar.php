@@ -25,10 +25,10 @@
 
                             <div class="sidebar-nav">
                                 <ul class="side-nav color-gray">
-                                    <li> 
+                                    <!-- <li> 
                                         <a href="admin_edit_choice.php"> <span>Dashboard</span> </a> 
                                      
-                                    </li>
+                                    </li> -->
 
 
                                     <li class="has-children">
