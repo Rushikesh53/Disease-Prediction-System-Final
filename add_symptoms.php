@@ -136,7 +136,8 @@ else if($error){?>
         {
         foreach($results as $result)
         {   ?>
-        <option value="<?php echo htmlentities($result->disease_id); ?>"><?php echo htmlentities($result->disease_id); ?>.<?php echo htmlentities($result->disease_name); ?>&nbsp;</option>
+        <option value="<?php echo htmlentities($result->disease_id); ?>">
+        <?php echo htmlentities($result->disease_id); ?>.<?php echo htmlentities($result->disease_name); ?>&nbsp;</option>
         <?php }} ?>
          </select>
                                                                 </div>

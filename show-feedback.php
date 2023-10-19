@@ -19,7 +19,8 @@ if(strlen($_SESSION['alogin'])=="")
     	<meta name="viewport" content="width=device-width, initial-scale=1">
         <title>View Feedback</title>
         <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" >
-        <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" > -->
         <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
         <link rel="stylesheet" href="css/form-content.css" media="screen" >
         <link rel="stylesheet" href="css/form-content.css" media="screen" >
@@ -123,20 +124,22 @@ foreach($results as $result)
 {   ?> 
 <tr> 
  <!-- <td><?php echo htmlentities($cnt);?></td> -->
-                                                            <td class="result-color1"><?php echo htmlentities($result->id);?></td>
-                                                            <td class="result-color1"> <?php echo htmlentities($result->name);?></td>
-                                                            <td class="result-color1"><?php echo htmlentities($result->experience);?></td>
-                                                            <td class="result-color1"><?php echo htmlentities($result->comments);?></td>
-                                                            <td class="result-color1"> <?php echo htmlentities($result->email);?></td>
-                                                            
-                                                          
-                                                            <td class="result-color1"><?php echo htmlentities($result->c_date);?></td>
+        <td class="result-color1"><?php echo htmlentities($result->id);?></td>
+        <td class="result-color1"> <?php echo htmlentities($result->name);?></td>
+        <td class="result-color1"><?php echo htmlentities($result->experience);?></td>
+        <td class="result-color1"><?php echo htmlentities($result->comments);?></td>
+        <td class="result-color1"> <?php echo htmlentities($result->email);?></td>
+        
+        
+        <td class="result-color1"><?php echo htmlentities($result->c_date);?></td>
                                                           
                                                            
 
-<td class="result-color1">
+<td class="result-color1" style="text-align:center">
 <!-- <button><a href="edit_users.php?stid=<?php echo htmlentities($result->id);?>"><i title="EDIT">EDIT</i></a> </button> -->
-<a href="delete-feedback.php?stid=<?php echo htmlentities($result->id);?>"onclick="return confirm('Are you sure you want to delete this item?');"><i class="fas fa-trash-alt" title="Delete"></i></a>
+<a href="delete-feedback.php?stid=<?php echo htmlentities($result->id);?>"onclick="return confirm('Are you sure you want to delete this item?');">
+<i class="fas fa-trash-alt" id="action-btn" title="Delete" style="color:black"></i>
+</a>
 
 </td>
 </tr>

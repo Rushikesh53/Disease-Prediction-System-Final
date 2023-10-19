@@ -1,34 +1,34 @@
 <?php
-session_start();
-error_reporting(0);
-include('link/config.php');
-if($_SESSION['alogin']!=''){
-$_SESSION['alogin']=''; 
-}
-if(isset($_POST['login']))  
-{
-$uname=$_POST['uname'];
-$_SESSION["username"]=$_POST['uname'];
-$password=md5($_POST['pass']);
-$sql ="SELECT UserName,Password FROM admin WHERE UserName=:uname and Password=:password";
-$query= $dbh -> prepare($sql);
-$query-> bindParam(':uname', $uname, PDO::PARAM_STR);
-$query-> bindParam(':password', $password, PDO::PARAM_STR);
-$query-> execute(); 
-$results=$query->fetchAll(PDO::FETCH_OBJ);
-if($query->rowCount() > 0)
-{
-$_SESSION['alogin']=$_POST['uname'];
-echo "<script>alert('Logged in Success');</script>";
-echo "<script type='text/javascript'> document.location = 'admin_edit_choice.php'; </script>";
-} else{
-    
-    echo "<script>alert('Invalid Details');</script>";
-    header("refresh:0;url=index.php");
+  session_start();
+  error_reporting(0);
+  include('link/config.php');
+  if($_SESSION['alogin']!=''){
+    $_SESSION['alogin']=''; 
+  }
+  if(isset($_POST['login']))  
+  {
+    $uname=$_POST['uname'];
+    $_SESSION["username"]=$_POST['uname'];
+    $password=md5($_POST['pass']);
+    $sql ="SELECT UserName,Password FROM admin WHERE UserName=:uname and Password=:password";
+    $query= $dbh -> prepare($sql);
+    $query-> bindParam(':uname', $uname, PDO::PARAM_STR);
+    $query-> bindParam(':password', $password, PDO::PARAM_STR);
+    $query-> execute(); 
+    $results=$query->fetchAll(PDO::FETCH_OBJ);
+    if($query->rowCount() > 0)
+    {
+      $_SESSION['alogin']=$_POST['uname'];
+      echo "<script>alert('Logged in Success');</script>";
+      echo "<script type='text/javascript'> document.location = 'admin_edit_choice.php'; </script>";
+    } else{
+        
+        echo "<script>alert('Invalid Details');</script>";
+        header("refresh:0;url=index.php");
 
-}
+  }
 
-}
+  }
 
 ?>
 
