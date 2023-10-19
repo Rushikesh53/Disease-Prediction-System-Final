@@ -131,14 +131,6 @@ foreach($results as $result)
      <li><a href="shoulder-symptoms1.php" ><button>Back</button></li>
 </div>
 </div>
-
-
-
-
-
-
-
-
       </div>
 
 

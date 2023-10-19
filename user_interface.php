@@ -41,10 +41,10 @@ if(strlen($_SESSION['alogin'])=="")
   <link href="css/custom.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
   <link rel="stylesheet" href="css/bootstrap.min.css" media="screen" >
-        <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" >
-        <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
-        <link rel="stylesheet" href="css/main.css" media="screen" >
-        <script src="js/modernizr/modernizr.min.js"></script>
+  <link rel="stylesheet" href="css/font-awesome.min.css" media="screen" >
+  <link rel="stylesheet" type="text/css" href="js/DataTables/datatables.min.css"/>
+  <link rel="stylesheet" href="css/main.css" media="screen" >
+  <script src="js/modernizr/modernizr.min.js"></script>
 
 
 

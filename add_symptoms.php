@@ -140,8 +140,8 @@ else if($error){?>
         <?php echo htmlentities($result->disease_id); ?>.<?php echo htmlentities($result->disease_name); ?>&nbsp;</option>
         <?php }} ?>
          </select>
-                                                                </div>
-                                                            </div>
+        </div>
+    </div>
 
 
                                                     <div class="form-group">

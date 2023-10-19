@@ -167,7 +167,7 @@ else if($error){?>
                                                         </div>
                                                     </div>
                                                     
-  <div class="form-group has-success">
+                                                    <div class="form-group has-success">
 
                                                         <div class="">
                                                            <button type="submit" name="submit" class="result-color1">Submit</button>
